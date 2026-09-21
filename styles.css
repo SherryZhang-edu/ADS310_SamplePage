@@ -36,7 +36,7 @@ a {
   grid-template-rows: auto 1fr;
   background:
     linear-gradient(rgba(19, 53, 58, 0.72), rgba(19, 53, 58, 0.58)),
-    url("assets/fertility-hero.jpg");
+    url("assets/TFR.png");
   background-color: #214f52;
   background-position: center;
   background-size: cover;
