@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Global Decline of Fertility Rates</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="topbar" aria-label="Page navigation">
+        <a href="#concept">Key Concept</a>
+        <a href="#data">Mini Dataset</a>
+        <a href="#task">Student Task</a>
+      </nav>
+      <div class="hero-content">
+        <p class="eyebrow">Teaching Source Page for Assignment 1</p>
+        <h1>The Global Decline of Fertility Rates</h1>
+        <p class="lede">
+          This short teaching page summarizes selected information from Our World in Data.
+          Your task is to transform this information into a structured LaTeX mini report.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="band intro" aria-labelledby="overview-title">
+        <div class="content-grid">
+          <div>
+            <h2 id="overview-title">Topic Overview</h2>
+            <p>
+              Fertility rates have declined substantially across the world over the last several
+              decades. In the past, many families had a larger number of children. Today, in many
+              countries and regions, the average number of children per woman is much lower.
+            </p>
+            <p>
+              This long-term change is connected to several social and economic developments,
+              including women's education and employment opportunities, lower child mortality,
+              higher costs of raising children, and improved access to family planning.
+            </p>
+          </div>
+          <aside class="note-box">
+            <h3>Guiding Question</h3>
+            <p>
+              How has the global fertility rate changed over time, and what social factors may
+              help explain this decline?
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="band" id="concept" aria-labelledby="concept-title">
+        <div class="content-grid">
+          <div>
+            <h2 id="concept-title">Key Concept: Total Fertility Rate</h2>
+            <p>
+              The total fertility rate, or TFR, is commonly used to summarize fertility in a
+              particular year. It estimates the average number of children that would be born to a
+              hypothetical woman if she experienced the age-specific fertility rates observed in
+              that year throughout her reproductive life.
+            </p>
+            <p>
+              In other words, TFR is a period measure. It describes fertility conditions in a
+              specific year rather than tracking the actual lifetime fertility of one generation of
+              women.
+            </p>
+          </div>
+          <div class="definition-card">
+            <p class="label">Definition</p>
+            <p>
+              <strong>Total Fertility Rate</strong> = average expected number of children per woman,
+              based on fertility rates in a particular year.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="band data-band" id="data" aria-labelledby="data-title">
+        <div class="content-stack">
+          <div class="section-heading">
+            <p class="eyebrow">Provided Data</p>
+            <h2 id="data-title">Global Fertility Rate Over Time</h2>
+            <p>
+              Our World in Data notes that the global fertility rate was about 5 children per woman
+              up to 1965 and has since fallen to below 2.5 children per woman. The simplified table
+              below is provided for teaching purposes. Use it to practise creating a LaTeX table and
+              figure.
+            </p>
+          </div>
+
+          <div class="data-layout">
+            <div class="table-wrap" role="region" aria-label="Simplified fertility dataset" tabindex="0">
+              <table>
+                <caption>Simplified global total fertility rate dataset</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Year</th>
+                    <th scope="col">Global Total Fertility Rate</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1965</td>
+                    <td>5.0</td>
+                  </tr>
+                  <tr>
+                    <td>1980</td>
+                    <td>3.7</td>
+                  </tr>
+                  <tr>
+                    <td>1995</td>
+                    <td>3.0</td>
+                  </tr>
+                  <tr>
+                    <td>2010</td>
+                    <td>2.6</td>
+                  </tr>
+                  <tr>
+                    <td>2022</td>
+                    <td>2.3</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="source-note">
+                Note: Values are simplified for teaching use and should be checked against the
+                original source if exact values are required.
+              </p>
+            </div>
+
+            <figure class="chart-card">
+              <svg viewBox="0 0 560 320" role="img" aria-labelledby="chart-title chart-desc">
+                <title id="chart-title">Line chart of global total fertility rate</title>
+                <desc id="chart-desc">
+                  A line chart showing global total fertility rate declining from 5.0 in 1965 to
+                  2.3 in 2022.
+                </desc>
+                <line x1="64" y1="38" x2="64" y2="266" class="axis"></line>
+                <line x1="64" y1="266" x2="520" y2="266" class="axis"></line>
+                <text x="52" y="54" class="tick">5.0</text>
+                <text x="52" y="122" class="tick">4.0</text>
+                <text x="52" y="190" class="tick">3.0</text>
+                <text x="52" y="258" class="tick">2.0</text>
+                <polyline
+                  points="82,38 198,126 314,174 430,202 500,222"
+                  class="trend-line"
+                  fill="none">
+                </polyline>
+                <g class="points">
+                  <circle cx="82" cy="38" r="6"></circle>
+                  <circle cx="198" cy="126" r="6"></circle>
+                  <circle cx="314" cy="174" r="6"></circle>
+                  <circle cx="430" cy="202" r="6"></circle>
+                  <circle cx="500" cy="222" r="6"></circle>
+                </g>
+                <text x="68" y="292" class="tick">1965</text>
+                <text x="182" y="292" class="tick">1980</text>
+                <text x="298" y="292" class="tick">1995</text>
+                <text x="414" y="292" class="tick">2010</text>
+                <text x="484" y="292" class="tick">2022</text>
+              </svg>
+              <figcaption>
+                Example figure based on the simplified mini dataset. Students may recreate this
+                figure in their own report.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="band" aria-labelledby="formula-title">
+        <div class="content-grid">
+          <div>
+            <h2 id="formula-title">Simple Notation for the Report</h2>
+            <p>
+              Students may use percentage change to describe the decline between the earliest and
+              latest values in the mini dataset.
+            </p>
+          </div>
+          <div class="formula-box" aria-label="Percentage change formula">
+            <p>
+              Percentage Change =
+              <span class="fraction">
+                <span>TFR<sub>latest</sub> - TFR<sub>earliest</sub></span>
+                <span>TFR<sub>earliest</sub></span>
+              </span>
+              x 100%
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="band factors" aria-labelledby="factors-title">
+        <div class="content-stack">
+          <div class="section-heading">
+            <p class="eyebrow">Short Discussion Material</p>
+            <h2 id="factors-title">Possible Reasons for Fertility Decline</h2>
+          </div>
+          <div class="factor-grid">
+            <article>
+              <h3>Women's Education and Empowerment</h3>
+              <p>
+                When women have greater access to education and employment, they often have more
+                life choices. The opportunity cost of having many children may also increase.
+              </p>
+            </article>
+            <article>
+              <h3>Declining Child Mortality</h3>
+              <p>
+                When child mortality is high, families may have more children to ensure that some
+                survive. As child survival improves, families may choose to have fewer children.
+              </p>
+            </article>
+            <article>
+              <h3>Higher Investment in Each Child</h3>
+              <p>
+                As education and living costs rise, families may place more emphasis on investing
+                resources in each child rather than having a larger number of children.
+              </p>
+            </article>
+            <article>
+              <h3>Family Planning</h3>
+              <p>
+                Access to family planning and contraception can help families make decisions about
+                the number and timing of children.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="band task-band" id="task" aria-labelledby="task-title">
+        <div class="content-grid">
+          <div>
+            <h2 id="task-title">Assignment 1 Task</h2>
+            <p>
+              Transform the information from this teaching webpage into a 2-3 page academic mini
+              report using LaTeX or Overleaf. Your report should be written in your own words and
+              organized using clear academic sections.
+            </p>
+            <ul class="checklist">
+              <li>Include a clear title and section headings.</li>
+              <li>Explain the concept of total fertility rate.</li>
+              <li>Present the provided mini dataset as a LaTeX table.</li>
+              <li>Create one figure based on the mini dataset.</li>
+              <li>Include one equation or notation, such as percentage change.</li>
+              <li>Write 2-3 basic observations about the trend.</li>
+              <li>Cite the original source and include a reference list.</li>
+            </ul>
+          </div>
+          <aside class="warning-box">
+            <h3>Academic Integrity Reminder</h3>
+            <p>
+              Do not copy this webpage directly. Summarize and reorganize the information in your
+              own words, and cite the original source in your report.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="band references" aria-labelledby="references-title">
+        <div class="content-stack">
+          <h2 id="references-title">Sources</h2>
+          <p>
+            This teaching page is adapted from Max Roser, "The global decline of the fertility
+            rate," published by Our World in Data.
+          </p>
+          <ul>
+            <li>
+              Roser, M. (2014). <a href="https://ourworldindata.org/global-decline-fertility-rate">The global decline of the fertility rate</a>. Our World in Data.
+            </li>
+            <li>
+              Our World in Data. <a href="https://ourworldindata.org/faqs#can-i-use-your-work-for-teaching">Can I use your work for teaching?</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
