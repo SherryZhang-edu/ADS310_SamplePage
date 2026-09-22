@@ -28,7 +28,9 @@ body {
   font-size: 17px;
   line-height: 1.7;
 }
-
+.print-watermark {
+  display: none;
+}
 a {
   color: var(--red-dark);
   text-decoration-thickness: 0.08em;
@@ -684,4 +686,36 @@ footer p { margin: 0; }
   }
 
   a { color: inherit; }
+
+  .print-watermark {
+    position: fixed;
+    right: 5mm;
+    bottom: 4mm;
+    z-index: 9999;
+
+    display: grid;
+    gap: 1px;
+    width: 60mm;
+
+    color: rgba(173, 192, 225, 0.58);
+    font-family: Arial, sans-serif;
+    font-size: 5.5pt;
+    font-weight: 600;
+    line-height: 1.25;
+    text-align: right;
+
+    transform: none;
+    pointer-events: none;
+    user-select: none;
+
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .print-watermark code {
+    color: inherit;
+    font-family: "Courier New", monospace;
+    font-size: 6pt;
+    font-weight: 700;
+  }
 }
