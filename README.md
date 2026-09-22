@@ -8,6 +8,6 @@ The page is prepared by Sherry. For assignment use only.
 
 ## Reference
 
-Roser, M. (2014). “The global decline of the fertility rate.” *Our World in Data*.
+Roser, M. (accessed 2026). “The global decline of the fertility rate.” *Our World in Data*.
 
 https://ourworldindata.org/global-decline-fertility-rate
