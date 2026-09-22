@@ -1,10 +1,6 @@
 # ADS310 Assignment 1 Sample Page
 
-This is a static, GitHub Pages-ready teaching source for Assignment 1 in ADS310: Research Methods and Data Analytics.
-
-## Formulae
-
-The page is prepared by Sherry. For assignment use only. 
+This is a static, GitHub Pages-ready teaching source for Assignment 1 in ADS310: Research Methods and Data Analytics, prepared by Sherry. (Assignment use only)
 
 ## Reference
 
